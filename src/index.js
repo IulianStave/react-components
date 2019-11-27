@@ -1,7 +1,11 @@
 // Comments using React
+// The three tenets of Components
+// Creating a Reusable, Configurable Component
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import faker from 'faker';
+
 
 const App = () => {
   return (
