@@ -2,13 +2,16 @@
 // The three tenets of Components
 // Creating a Reusable, Configurable Component
 
-import React from "react";
-import ReactDOM from "react-dom";
-import CommentDetail from "./CommentDetail";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import faker from 'faker';
+import CommentDetail from './CommentDetail';
+import ApprovalCard from './ApprovalCard.js';
 
 const App = () => {
   return (
     <div className="ui container comments">
+      <ApprovalCard/>
       <CommentDetail
         author="Sam"
         commentTime="Today at 4:45PM"
